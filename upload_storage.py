@@ -34,9 +34,3 @@ def upload_mp4_bytes(mp4_bytes: bytes) -> str:
 
     return "https://r2.k-ota.com/" + fileName
 
-# 試しにアップロード
-with open("yolo-test.mp4", "rb") as f:
-    data = f.read()
-
-url = upload_mp4_bytes(data)
-print(url)
