@@ -10,15 +10,15 @@
 ## 手順
 1. このリポジトリをクローンします．
 2. .envファイルを作成して，環境変数を書き込んでください．
-3. ```pip install -r requirements.txt```で依存関係をインストールします。
+3. ```pip install -r requirements.txt```で依存関係をインストールします．
 4. ```python pipeline.py```コマンドを実行します．
 
 ## 環境変数
 
 | 項目                 | 詳細                                                                                               | 
 | -------------------- | -------------------------------------------------------------------------------------------------- | 
-| SUPABASE_URL         | supabaseのエンドポイントURLを記載します。<br>https://xxx.supabase.coの形式です。                   | 
-| SUPABASE_KEY         | supabaseのシークレットキーを記載します。                                                           | 
-| R2_ENDPOINT          | Cloudflare R2のエンドポイントURLを記載します。<br>https://xxx.r2.cloudflarestorage.comの形式です。 | 
-| R2_ACCESS_KEY        | Cloudflare R2のアクセスキーを記載します。                                                          | 
-| R2_ACCESS_KEY_SECRET | Cloudflare R2のシークレットアクセスキーを記載します。   
+| SUPABASE_URL         | supabaseのエンドポイントURLを記載します．<br>https://xxx.supabase.coの形式です.                   | 
+| SUPABASE_KEY         | supabaseのシークレットキーを記載します．                                                           | 
+| R2_ENDPOINT          | Cloudflare R2のエンドポイントURLを記載します．<br>https://xxx.r2.cloudflarestorage.comの形式です． | 
+| R2_ACCESS_KEY        | Cloudflare R2のアクセスキーを記載します．                                                          | 
+| R2_ACCESS_KEY_SECRET | Cloudflare R2のシークレットアクセスキーを記載します．   
